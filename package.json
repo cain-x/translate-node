@@ -1,0 +1,13 @@
+{
+  "name": "i18n-node",
+  "version": "1.0.0",
+  "description": "可以将一个文件转换成各种不同的翻译json文件",
+  "main": "script/main.js",
+  "scripts": {
+    "dev": "node script/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ionic:serve": "npm run dev"
+  },
+  "author": "",
+  "license": "ISC"
+}
