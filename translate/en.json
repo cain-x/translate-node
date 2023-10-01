@@ -1,1 +1,1 @@
-{ "create": "Add", "delete": "delete", "update": "modify", "find": "query" }
+{"create":"Add","delete":"delete","update":"modify","find":"query"}
