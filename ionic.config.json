@@ -1,7 +1,0 @@
-{
-  "name": "i18n-node",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "custom"
-}
