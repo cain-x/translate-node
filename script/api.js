@@ -4,8 +4,8 @@ const querystring = require("querystring");
 // 使用百度翻译接口翻译 / 需要自己的appid和秘钥 / 可以观看我的博客来进行配置
 const BaiDuTranslate = (params) => {
   return new Promise((resolve, reject) => {
-    var appid = "20231001001834336";
-    var key = "TAzFrB4QvXSRgkv_BS8z";
+    var appid = process.env.BD_APP_ID;
+    var key = process.env.BD_KEY;
     var salt = new Date().getTime();
 
     var query = params.query || "";
